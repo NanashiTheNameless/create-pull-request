@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/peter-evans/create-pull-request",
   "dependencies": {
-    "@actions/core": "^3.0.1",
-    "@actions/exec": "^3.0.0",
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1",
     "@octokit/core": "^6.1.6",
     "@octokit/plugin-paginate-rest": "^11.6.0",
     "@octokit/plugin-rest-endpoint-methods": "^13.5.0",
@@ -43,6 +43,9 @@
     "node-fetch-native": "^1.6.7",
     "p-limit": "^6.2.0",
     "uuid": "^14.0.0"
+  },
+  "overrides": {
+    "@actions/http-client": "3.0.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
